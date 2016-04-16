@@ -1,0 +1,25 @@
+{
+  "name": "pulserender/datagrid",
+  "description": "Laravel 5.2 Datagrid",
+  "keywords": ["laravel", "datagrid"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Razvan Preda",
+      "email": "rcpreda@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pulserender\\DataGrid\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
